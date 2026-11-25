@@ -1,16 +1,22 @@
 {
-  "desktop": {
-    "walk": true,
-    "run": true,
-    "turn_left": true,
-    "crouch": true,
-    "jump_and_land": true,
-    "skill_cost": true,
-    "attack_target": true,
-    "page_errors": []
-  },
-  "mobile": {
-    "simultaneous_right_jump": true,
-    "page_errors": []
+  "walk_speed": 220.0,
+  "run_speed": 390.0,
+  "attack_start_x": 513.4,
+  "target_hp": [
+    2,
+    3,
+    3,
+    3
+  ],
+  "jump_y": 392.6,
+  "landed": true,
+  "crouch": "crouch",
+  "left": -1,
+  "errors": [],
+  "pose_sampling": {
+    "method": "21 fixed phases rendered in Chromium",
+    "blade_tip_min_y_approx": 340.4,
+    "ground_y": 520,
+    "sword_rotation_full_cycle_rad_approx": 6.28
   }
 }
