@@ -1,0 +1,16 @@
+{
+  "desktop": {
+    "walk": true,
+    "run": true,
+    "turn_left": true,
+    "crouch": true,
+    "jump_and_land": true,
+    "skill_cost": true,
+    "attack_target": true,
+    "page_errors": []
+  },
+  "mobile": {
+    "simultaneous_right_jump": true,
+    "page_errors": []
+  }
+}
